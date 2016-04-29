@@ -27,7 +27,7 @@
 	<%!
 		public String displayBlogs() {
 			
-			DBAndDAOImitation.genereteBlogs();
+			
 			ArrayList<BlogBean> blogList = DBAndDAOImitation.getAllBlogs();
 			StringBuilder strBuilder = new StringBuilder();
 			for(int i=0; i<blogList.size(); i++) {
