@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+
+header {
+	border: 1px solid red;
+}
+
+nav {
+	border: 1px solid red;	
+}
+nav ul {
+	list-style-type: none;
+}
+nav li {
+	display: inline;
+	margin-left: 50px;
+	margin-right 50px:
+}
+nav li a {
+	margin: 0;
+	padding: 0;
+}
+
+article {
+	border: 1px solid green;
+}
+
+h1 {
+	color: blue;
+}
+
